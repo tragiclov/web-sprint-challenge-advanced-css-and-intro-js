@@ -253,8 +253,8 @@ function get20s(array) {
     yearsActive[1] = parseInt(yearsActive[1]);
     if(yearsActive[0] > 1900 && yearsActive[1] < 2000)
     names.push(array[i].name);
-  return names;
   }
+  return names;
 }
 
 
